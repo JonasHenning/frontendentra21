@@ -4,6 +4,7 @@ var  num = 7;
 
     function myFunction(){
       var x = document.getElementById('contextText');
+     
       /* a variável x é o texto dentro da div com id="contextText" */
       if (x.style.display ==='none'){
         /* se o sytle da div for none, ou seja, estiver invisível... */
@@ -14,4 +15,10 @@ var  num = 7;
         /* ... caso contrário, (se já estiver visível) faça sumir.*/
       }
     }
-  
+    
+    x = null;
+    y = undefined;
+    
+    if (x==y){
+    console.log('os valores são iguais')}
+    else {console.log('os valores são diferentes')}
